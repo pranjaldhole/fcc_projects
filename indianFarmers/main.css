@@ -1,0 +1,41 @@
+/*--------------------------------------------------
+BODY
+--------------------------------------------------*/
+body {
+  width: 100%;
+  background-color: #d7d7c1;
+}
+img {
+  width: 100%;
+  align: middle;
+}
+p {
+	font-size: 20;
+	line-height: normal;
+}
+.media-object {
+  thumbnail
+}
+.serif {
+  font-family: 'Noto Serif', serif;
+  }
+.sans {
+  font-family: 'Noto Sans', sans;
+}
+.panel-footer {
+  padding: 30px;
+  font-size: 65%; margin-before: 2em; margin-after: 2em;
+  line-height: 150%;
+}
+.content-main {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.col-md-6 {
+  padding: 10px 20px 10px 20px;
+}
+.footer {
+  padding: 0 30px 30px 30px;
+  text-align: center;
+  font-size: 110%; margin-before: 2em; margin-after: 2em;
+}

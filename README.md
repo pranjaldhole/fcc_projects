@@ -1,2 +1,4 @@
-# fcc_projects
-Code for my web designing projects on freeCodeCamp
+# freeCodeCamp Web Development Projects
+Code for my web development projects on freeCodeCamp.
+
+- [Farmer suicides in India](indianFarmer)

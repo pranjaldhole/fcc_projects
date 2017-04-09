@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="title" content="Random Quote Generator" />
+    <meta name="author" content="Pranjal Dhole" />
+    <!--- Stylesheets used for codepen --->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"/>
+    <link rel="stylesheet" href="quotes.js"/>
+    <!-- Importing Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  </head>
+  <body>
+  	<div id="container">
+  		<h2>Get Your Daily Quote</h2>
+  			<div id="quoteContainer">
+  				<p></p>
+  				<p id="quoteGenius"></p>
+  			</div><!--end quoteContainer-->
+
+			<div id="buttonContainer">
+				<a href="#" id="quoteButton">Quote Me</a>
+  		</div><!--end buttonContainer-->
+
+      <!--- share Quote --->
+      <div style="center">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//codepen.io/pranjaldhole/pen/wJpBmQ/" class="icon-button facebook"
+        onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A//codepen.io/pranjaldhole/pen/wJpBmQ/', 'newwindow', 'width=500, height=500'); return false;"><i class="icon-facebook fa fa-facebook-f"></i><span></span></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//codepen.io/pranjaldhole/pen/wJpBmQ/&title=&summary=&source=" class="icon-button linkedin"
+        onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A//codepen.io/pranjaldhole/pen/wJpBmQ/&title=&summary=&source=', 'newwindow', 'width=500, height=500'); return false;"><i class="icon-linkedin fa fa-linkedin"></i><span></span></a>
+        <a href="https://plus.google.com/share?url=https%3A//codepen.io/pranjaldhole/pen/wJpBmQ/" class="icon-button google-plus"
+        onclick="window.open('https://plus.google.com/share?url=https%3A//codepen.io/pranjaldhole/pen/wJpBmQ/', 'newwindow', 'width=500, height=500'); return false;"><i class="icon-google-plus fa fa-google-plus"></i><span></span></a>
+        <a href="https://twitter.com/home?status=https%3A//codepen.io/pranjaldhole/pen/wJpBmQ/" class="icon-button twitter"
+        onclick="window.open('https://twitter.com/home?status=https%3A//codepen.io/pranjaldhole/pen/wJpBmQ/', 'newwindow', 'width=500, height=500'); return false;"><i class="icon-twitter fa fa-twitter"></i><span></span></a>
+      </div>
+    </div><!--end container-->
+    <!-- Footer: Copyrights -->
+    <footer class="footer sans">
+      <span>&#9997;</span>&nbsp;Coded by
+      <a href="https://pranjaldhole.github.io/contact/"
+      target="_blank" title>
+      Pranjal Dhole
+      </a>
+    </footer>
+  </body>
+</html>

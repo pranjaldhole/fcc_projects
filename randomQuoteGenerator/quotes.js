@@ -151,7 +151,7 @@ $(document).ready(function() {
 			var newQuoteText = quoteSource[randomNumber].quote;
 			var newQuoteGenius = quoteSource[randomNumber].name;
 			//console.log(newQuoteText,newQuoteGenius);
-	    var timeAnimation = 500;
+	    var timeAnimation = 5000;
 	    var quoteContainer = $('#quoteContainer');
 	    //fade out animation with callback
 	    quoteContainer.fadeOut(timeAnimation, function(){

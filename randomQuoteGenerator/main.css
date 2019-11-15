@@ -142,7 +142,7 @@ SOCIAL SHARE BUTTONS
 	height: 3.6rem;
 	left: 0;
 	line-height: 3.6rem;
-	position: absolute;
+	position: relative;
 	top: 0;
 	-webkit-transition: all 0.3s;
 	   -moz-transition: all 0.3s;
